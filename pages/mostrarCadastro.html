@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Fenox - Cadastro</title>
+
+    <link rel="shortcut icon" href="assets/images/ico/favicon.ico" type="image/x-icon">
+
+    <!-- Bootstrap CSS -->
+    <link href="../plugins/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../plugins/css/table-bootstrap.css">
+    <!-- Styles -->
+    <link href="../assets/css/style.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body  onload="mostrarCadastro()">
+
+    <div class="table-responsive-vertical shadow-z-1">
+        <!-- Table starts here -->
+        <table id="table" class="table table-hover table-mc-light-blue">
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>CPF</th>
+                    <th>Telefone</th>
+                    <th>E-mail</th>
+                    <th>Endereço</th>
+                    <th>Mensagem</th>
+
+                </tr>
+            </thead>
+            <tbody id="resultados">
+            </tbody>
+        </table>
+    </div>
+                    
+    <!--Button Flutuante-->
+    <div class="fab">
+        <a href="../index.html">
+            <button class="main">
+                <img src="../assets/images/exit-button.png">
+            </button>
+        </a>
+    </div>
+                                
+    <!-- jQuery -->
+    <script src="../plugins/js/jquery.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="../plugins/js/bootstrap.min.js"></script>
+    <!-- JavaScript -->
+    <script src="../assets/functions/cadastroLocalStorage.js"></script>
+</body>
+</html>

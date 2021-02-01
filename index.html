@@ -1,0 +1,147 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Front-end Test</title>
+
+        <!-- Bootstrap CSS -->
+        <link href="plugins/css/bootstrap.css" rel="stylesheet">
+        <!-- Estilos CSS -->
+        <link href="assets/css/style.css" rel="stylesheet">
+
+    </head>
+    <body onload="mostrarCadastro()">
+
+        <header class="container background-header">
+            <div class="col-md-6">
+               <div class="col-sm-12">
+                   <h2></h2>
+               </div>
+            </div>
+        </header>
+
+        <div class="container jumbotron">
+            <form id="formulario" action="" method="POST" class="" role="form">
+
+                <div class="col-md-6">
+                    <div class="col-sm-12">
+                        <img class="img-responsive" src="favicon.png"><br>
+                    </div>
+                    <div class="col-sm-12">
+                        <h2>Formulário</h2>
+                    </div>
+                </div>
+
+              <div class="col-md-6">
+                <div class="col-sm-12">
+                  <div class="form-group">
+                    <label class="name">Nome</label>
+                    <input id="nome" type="text" name="name" class="form-control" required="">
+                  </div>
+                </div>
+                <div class="col-sm-12">
+                  <div class="form-group">
+                    <label class="cpf">CPF</label>
+                    <input id="cpf" type="text" name="doc" data-mask="000.000.000-00" class="form-control" required="">
+                  </div>
+                </div>
+                <div class="col-sm-12">
+                    <div class="form-group">
+                      <label class="tel">Telefone</label>
+                      <input id="tel" type="text" name="phone" class="form-control" required="">
+                    </div>
+                  </div>
+                  
+                <div class="col-sm-12">
+                  <div class="form-group">
+                    <label class="mail">E-mail</label>
+                    <input id="email" type="text" name="email" class="form-control" required="">
+                  </div>
+                </div>
+                <div class="col-sm-12">
+                  <div class="form-group">
+                    <label class="postalCode">CEP</label>
+                    <input id="cep" type="text" data-mask="00000-000" name="postalCode" class="form-control" required="">
+                  </div>
+                </div>
+
+                <div class="col-sm-12">
+                  <div class="form-group">
+                    <label class="address">Endereço</label>
+                    <input id="rua" type="text" name="address" class="form-control" required="">
+                  </div>
+                </div>
+
+                <div class="col-sm-6">
+                  <div class="form-group">
+                    <label class="addressNumber">Numero</label>
+                    <input id="num" type="text" name="addressNumber" class="form-control" required="">
+                  </div>
+                </div>
+          
+                <div class="col-sm-6">
+                  <div class="form-group">
+                    <label class="district">Bairro</label>
+                    <input id="bairro" type="text" name="district" class="form-control" required="">
+                  </div>
+                </div>
+          
+                <div class="col-sm-6">
+                  <div class="form-group">
+                    <label class="city">Cidade</label>
+                    <input id="cidade" type="text" name="city" class="form-control" required="">
+                  </div>
+                </div>
+          
+                <div class="col-sm-6">
+                  <div class="form-group">
+                    <label class="state">UF</label>
+                    <input id="uf" type="text" name="state" class="form-control" required="" minlength="2" maxlength="2">
+                  </div>
+                </div>
+
+                <div class="col-sm-12">
+                    <div class="form-group">
+                      <label class="msg">Mensagem</label>
+                      <textarea id="mensagem" type="text" name="state" class="form-control" required=""></textarea>
+                    </div>
+                </div>
+
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <button id="submitBtn" type="submit" class="btn btn-primary btn-block">Salvar</button>
+                   </div>
+                </div>
+
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <a type="submit" href="./pages/mostrarCadastro.html" class="btn btn-success btn-block">Mostrar</a>
+                    </div>
+                </div>
+
+            </div>
+ 
+        </form>
+    </div>
+        
+        <footer class="container background-footer">
+        
+        </footer>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
+        <!--Mask Form-->
+        <script src="assets/functions/maskForm.js"></script>
+       
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
+        
+        <!-- jQuery -->
+        <script src="plugins/js/jquery.min.js"></script>
+        <!-- Bootstrap JavaScript -->
+        <script src="plugins/js/bootstrap.js"></script>
+        <script src="assets/functions/cadastroLocalStorage.js"></script>
+    </body>
+</html>

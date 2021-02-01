@@ -1,0 +1,90 @@
+.background-header {
+    width: 100%;
+    height: 40px;
+    background: #004579;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.container {
+    background-color: #004579;
+}
+
+small {
+    color: white !important;
+    float: right;
+    font-size: 14px !important;
+    margin-top: 80px;
+    margin-right: -395px;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 0px !important;
+    margin: 0;
+    text-transform: uppercase;
+    color: aliceblue;
+    font-size: 50px;
+    font-family: inherit;
+    padding: 20px 0;
+    text-shadow: 3px 3px 1px black;
+}
+
+.name, .cpf, .tel, .mail, .postalCode, .address, .addressNumber, .district, .city, .state, .msg {
+    color: aliceblue;
+    text-shadow: 3px 3px 1px black;
+}
+
+.img-responsive {
+    display: block;
+    margin: auto;
+    width: 80px;
+}
+
+.background-footer {
+    width: 100%;
+    height: 50px;
+    background: #004579;
+    color: white;
+}
+
+.btn {
+    text-shadow: 3px 3px 3px black;
+    color: aliceblue;
+}
+
+.fab {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
+
+    .fab button {
+        cursor: pointer;
+        width: 68px;
+        height: 68px;
+        border-radius: 30px;
+        background-color: black;
+        border: none;
+        box-shadow: 0 1px 5px rgba(0,0,0,.4);
+        font-size: 24px;
+        color: black;
+        -webkit-transition: .2s ease-out;
+        -moz-transition: .2s ease-out;
+        transition: .2s ease-out;
+    }
+
+        .fab button:focus {
+            outline: none;
+        }
+
+        .fab button.main {
+            position: absolute;
+            width: 60px;
+            height: 60px;
+            border-radius: 30px;
+            background-color: #e2e2e2;
+            right: 0;
+            bottom: 0;
+            z-index: 20;
+        }
